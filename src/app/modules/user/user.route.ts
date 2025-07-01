@@ -10,5 +10,8 @@ router.post(
   validateRequest(UserValidation.userValidationSchema),
   UserController.registerUser
 );
+router.post("/verify-email", UserController.registerUser);
+router.post("/forgot-password", UserController.registerUser);
+router.post("/reset-password/:token", UserController.registerUser);
 
 export const UserRoutes = router;
