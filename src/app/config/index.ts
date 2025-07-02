@@ -9,6 +9,7 @@ export default {
   NODE_ENV: process.env.NODE_ENV,
   super_admin_password: process.env.SUPER_ADMIN_PASSWORD,
   bcrypt_salt_rounds: process.env.BCRYPT_SALT_ROUNDS,
+  app_name: process.env.APP_NAME,
   mail: process.env.MAIL,
   mail_password: process.env.MAIL_PASS,
   base_url_server: process.env.BASE_URL_SERVER,
